@@ -11,16 +11,16 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 weak_password = []
 
 for letter in range(0, nr_letters):
-  random_letter = random.choice(letters)
-  weak_password.append(random_letter)
+    random_letter = random.choice(letters)
+    weak_password.append(random_letter)
 
 for symbol in range(0, nr_symbols):
-  random_symbol = random.choice(symbols)
-  weak_password.append(random_symbol)
+    random_symbol = random.choice(symbols)
+    weak_password.append(random_symbol)
 
 for number in range(0, nr_numbers):
-  random_number = random.choice(numbers)
-  weak_password.append(random_number)
+    random_number = random.choice(numbers)
+    weak_password.append(random_number)
 
 random.shuffle(weak_password)
 
